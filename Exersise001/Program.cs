@@ -9,9 +9,9 @@ Console.Write("Enter second number: ");
 numberB = Convert.ToInt32(Console.ReadLine());
 
 if (numberA > numberB)
-    Console.WriteLine($"max = {numberA}");
+    Console.WriteLine($"max = {numberA}\nmin = {numberB}");
 else if (numberB > numberA)
-    Console.WriteLine($"max = {numberB}");
+    Console.WriteLine($"max = {numberB}\nmin = {numberA}");
 else
     Console.WriteLine("values are equal");
 
