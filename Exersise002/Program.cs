@@ -9,6 +9,7 @@ Console.Write("Enter second number: ");
 numberB = Convert.ToInt32(Console.ReadLine());
 Console.Write("Enter third number: ");
 numberC = Convert.ToInt32(Console.ReadLine());
+
 max = numberA;
 
 if (numberB > max)
